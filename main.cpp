@@ -2,7 +2,7 @@
 #include <conio.h>
 //#include "gameheaders.h"
 #include "map.h"
-#include "numinput.h"
+//#include "numinput.h"
 using namespace std;
 
 #define w_key 119
@@ -14,7 +14,6 @@ using namespace std;
 void beep();
 int main()
 {
-	cout << stringtofloat("hi")<<endl;
 	int currentmaprow=1;
 	int currentmapcol=1;
 	int newmaprow=1;
