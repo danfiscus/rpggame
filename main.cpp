@@ -45,6 +45,7 @@ int main()
 				//cout<<'d'<<endl;
 				if(currentmapcol<2) {newmapcol++;}
 				else {beep();}
+				break;
 			case q_key:
 				//cout<<'q'<<endl;
 				done=true;
